@@ -1,0 +1,31 @@
+{
+  "name": "lendersystembackend",
+  "version": "1.0.0",
+  "description": "This is the Lender Project",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prateeeksagar/LenderSystemBackend.git"
+  },
+  "author": "Prateek-Admin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prateeeksagar/LenderSystemBackend/issues"
+  },
+  "homepage": "https://github.com/prateeeksagar/LenderSystemBackend#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mysql2": "^3.2.0",
+    "nodemon": "^2.0.21",
+    "sequelize": "^6.29.3",
+    "sequelize-cli": "^6.6.0",
+    "uniqid": "^5.4.0"
+  }
+}
